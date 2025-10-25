@@ -24,6 +24,11 @@ def ask_questions():
             "Installation Instructions (Press Esc+Enter when done):",
             multiline=True
         ).ask()
+
+        answers['tech_stack'] = questionary.text( 
+            "Skill Icons Keywords (e.g., html,css,js,react,mongodb):",
+            multiline=True
+        ).ask()
         answers['license'] = questionary.select(
             "Choose a License:",
             choices=LICENSE_CHOICES
