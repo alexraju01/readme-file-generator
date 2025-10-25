@@ -7,15 +7,32 @@ class ReadmeGenerator:
         # Get data for easy access
         title = self.data.get('title', 'My Awesome Project')
         description = self.data.get('description', 'A brief description of the project.')
+        installation = self.data.get('installation', 'No installation instructions provided.')
+        author = self.data.get('author', 'Unknown')
 
+        # Title Section
         self.content += f"# {title}\n\n"
-        
 
+    
         # Description Section
-        self.content += "## Description\n"
-        self.content += '---'
+        self.content += "## Description\n\n"
+        self.content += '---\n'
         self.content += f"{description}\n"
       
+        # Installation Section
+        self.content += "---\n\n"
+        self.content += "## Installation\n\n"
+        self.content += "To get this project running, follow these steps:\n\n"
+        self.content += "```bash\n"
+        self.content += f"{installation}\n"
+        self.content += "```\n\n"
+
+
+        # Author/Contact Section
+        self.content += "---\n\n"
+        self.content += "## Author and Contact\n\n"
+        self.content += f"**Author:** {author}\n\n"
+        
         return self.content
 
     def write_file(self, filename="README.md"):

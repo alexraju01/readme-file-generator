@@ -1,5 +1,26 @@
-# dfgkjhsdfgk jshdfgkj
+# Generototr file
 
 ## Description
+---
+sdkhdf
+dsfg
+sdfgsd
+fgdsfgsdkjhfg jks kjl gfl jkh
+---
 
-a s d f g h j 
+## Installation
+
+To get this project running, follow these steps:
+
+```bash
+npm i
+python i
+
+```
+
+---
+
+## Author and Contact
+
+**Author:** alex raju
+
