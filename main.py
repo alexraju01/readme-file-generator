@@ -1,19 +1,26 @@
 import questionary
 
+
+def ask_questions():
+    answers = {}
+    try:
+        answers['title'] = questionary.text("Project Title (e.g., Python README Generator):").ask()
+        answers['description'] = questionary.text(
+            "Project Description (Press Esc+Enter when done):",
+            multiline=True
+        ).ask()
+    except KeyboardInterrupt:
+        # Handle Ctrl+C gracefully
+        return None
+
+    return answers
+
+
 def main():
-    """
-    Main function to run the README generator application.
-    """
-    print("--- Python README File Generator ---\n")
-
-    questionary.text("What's your first name").ask()
-    questionary.password("What's your secret?").ask()
-    questionary.confirm("Are you amazed?").ask()
-
-    questionary.select(
-        "What do you want to do?",
-        choices=["Order a pizza", "Make a reservation", "Ask for opening hours"],
-    ).ask()
+    print("--- README.MD Generator CLI ---")
+    results = ask_questions()
+    print("\n--- Answers Received ---")
+    print(results)
 
 
 main()
