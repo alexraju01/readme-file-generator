@@ -20,9 +20,8 @@ def main():
     print("--- README.MD Generator CLI ---")
     results = ask_questions()
     generator = ReadmeGenerator(results)
-    markdown_output = generator.generate_markdown()
-    print(markdown_output)
-    # generator.write_file("README.md")
+
+    print(generator.write_file())
     print("\n--- Answers Received ---")
     print(results)
 
