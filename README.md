@@ -1,11 +1,15 @@
-# Generototr file
+# fghfgh
+
+[![License: Unlicensed](https://img.shields.io/badge/License-Unlicensed-blue.svg)](https://choosealicense.com/licenses/unlicensed/)
 
 ## Description
+
 ---
-sdkhdf
-dsfg
-sdfgsd
-fgdsfgsdkjhfg jks kjl gfl jkh
+dsfghjdfg
+dfghs
+fdgs
+dsfgh
+
 ---
 
 ## Installation
@@ -13,8 +17,7 @@ fgdsfgsdkjhfg jks kjl gfl jkh
 To get this project running, follow these steps:
 
 ```bash
-npm i
-python i
+dfkjghkjfg
 
 ```
 
