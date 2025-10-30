@@ -20,6 +20,7 @@ class ReadmeGenerator:
             return ""
 
         keywords_str = tech_stack_input.replace('\n', ',')
+        keywords_str = keywords_str.replace(' ', ',')
 
         cleaned_keywords = [
             word.strip().lower() 

@@ -1,6 +1,6 @@
 # simple python readme generator
 
-[![License: Unlicensed](https://img.shields.io/badge/License-Unlicensed-blue.svg)](https://choosealicense.com/licenses/unlicensed/)
+[![License: MIT License](https://img.shields.io/badge/License-MIT_License-blue.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Description
 
@@ -10,7 +10,7 @@ This isa  cli created using python to help user create a generator
 
 ## Tech Stack
 
-![My Skills](https://skillicons.dev/icons?i=python github)
+![My Skills](https://skillicons.dev/icons?i=python,github)
 ---
 
 ## Installation
@@ -19,6 +19,7 @@ To get this project running, follow these steps:
 
 ```bash
 pip install questioniare
+
 ```
 
 ---
@@ -27,5 +28,5 @@ pip install questioniare
 
 **Author:** Alex Raju
 
-**Contact:** 78345876837487
+**Contact:** 897435635
 
