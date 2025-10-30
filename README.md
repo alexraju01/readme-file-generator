@@ -4,13 +4,12 @@
 
 ## Description
 
-This is readme.md file created using this python script which is created to help users simplify the need to create readme.md file using cli 
-
+This is readme.md file created using this python script which is created to help users simplify the need to create readme.md file using cli
 ---
 
 ## Tech Stack
 
-![My Skills](https://skillicons.dev/icons?i=python,github)
+![My Skills](https://skillicons.dev/icons?i=python github)
 ---
 
 ## Installation
@@ -18,7 +17,7 @@ This is readme.md file created using this python script which is created to help
 To get this project running, follow these steps:
 
 ```bash
-pip install -r requirements.txt
+pip install questionary
 
 ```
 
@@ -26,5 +25,7 @@ pip install -r requirements.txt
 
 ## Author and Contact
 
-**Author:** Alex Raju
+**Author:** Alex
+
+**Contact:** 7465384756
 

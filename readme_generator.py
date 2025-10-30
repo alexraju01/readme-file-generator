@@ -43,6 +43,7 @@ class ReadmeGenerator:
         author = self.data.get('author', 'Unknown')
         license_badge = self._generate_license_badge()
         tech_stack = self._generate_tech_stack_badge()
+        contact = self.data.get("contact")
 
         # Title Section
         self.content += f"# {title}\n\n"
@@ -72,6 +73,8 @@ class ReadmeGenerator:
         self.content += "---\n\n"
         self.content += "## Author and Contact\n\n"
         self.content += f"**Author:** {author}\n\n"
+        self.content += f"**Contact:** {contact}\n\n"
+
         
         return self.content
 

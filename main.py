@@ -1,5 +1,5 @@
 import questionary
-from questionary import Separator
+from questionary import Separator, Style
 from readme_generator import ReadmeGenerator
 
 
@@ -12,14 +12,23 @@ LICENSE_CHOICES = [
     'Unlicensed'
 ]
 
+
+custom_style = Style([
+    ('question', 'bold'),
+    ('answer', 'fg:#f44336 bold'), # Brighter answer color
+    ('pointer', 'fg:#673ab7 bold'), # Accent color for the selector
+])
+
 def ask_questions():
     answers = {}
     try:
-        answers['title'] = questionary.text("Project Title (e.g., Python README Generator):").ask()
+        answers['title'] = questionary.text("Project Title (e.g., Python README Generator):", style=custom_style).ask()
+      
         answers['description'] = questionary.text(
             "Project Description (Press Esc+Enter when done):",
             multiline=True
         ).ask()
+
         answers['installation'] = questionary.text(
             "Installation Instructions (Press Esc+Enter when done):",
             multiline=True
@@ -36,6 +45,10 @@ def ask_questions():
 
         answers['author'] = questionary.text(
             "Author Name:"
+        ).ask()
+
+        answers['contact'] = questionary.text(
+            "Contact detail:"
         ).ask()
     except KeyboardInterrupt:
         # Handle Ctrl+C gracefully
