@@ -1,10 +1,11 @@
-# readme.md file genretor
+# simple python readme generator
 
 [![License: Unlicensed](https://img.shields.io/badge/License-Unlicensed-blue.svg)](https://choosealicense.com/licenses/unlicensed/)
 
 ## Description
 
-This is readme.md file created using this python script which is created to help users simplify the need to create readme.md file using cli
+This isa  cli created using python to help user create a generator
+
 ---
 
 ## Tech Stack
@@ -17,15 +18,14 @@ This is readme.md file created using this python script which is created to help
 To get this project running, follow these steps:
 
 ```bash
-pip install questionary
-
+pip install questioniare
 ```
 
 ---
 
 ## Author and Contact
 
-**Author:** Alex
+**Author:** Alex Raju
 
-**Contact:** 7465384756
+**Contact:** 78345876837487
 
